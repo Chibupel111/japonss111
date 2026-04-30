@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Япония — страна восходящего солнца</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #1a2a3a; font-family: 'Segoe UI', Arial, sans-serif; color: #e8dfce; line-height: 1.5; }
+.container { max-width: 1100px; margin: auto; padding: 2rem; }
+.header { text-align: center; margin-bottom: 2rem; border-bottom: 2px solid #c9b68b; padding-bottom: 1rem; }
+.header h1 { font-size: 2.5rem; color: #f5e7d3; letter-spacing: 2px; }
+.header p { color: #b9aa8a; }
+.section { background: #f5ede0; border-radius: 28px; padding: 1.5rem 2rem; margin-bottom: 2rem; color: #1a2a3a; }
+.section-title { font-size: 1.6rem; color: #1a2a3a; border-left: 5px solid #8b6b3d; padding-left: 1rem; margin-bottom: 1.2rem; }
+.bio-text p { margin-bottom: 0.8rem; color: #2a3a44; }
+.fact-card { background: #e7dcc8; padding: 0.8rem 1rem; border-radius: 16px; margin-bottom: 0.7rem; border-left: 4px solid #8b6b3d; }
+.fact-card strong { color: #8b5a2b; }
+.top-five { background: #e7dcc8; border-radius: 20px; padding: 1rem 1.5rem; margin-top: 0.5rem; }
+.top-five ol { padding-left: 1.5rem; }
+.top-five li { margin-bottom: 0.6rem; color: #1e2f3a; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+.card { background: white; border-radius: 24px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: 0.2s; }
+.card:hover { transform: translateY(-5px); }
+.card-img { width: 100%; height: 190px; object-fit: cover; display: block; background: #d6c8b0; }
+.card-content { padding: 1rem; }
+.card-content h3 { color: #1a2a3a; margin-bottom: 0.3rem; }
+.card-content p { color: #4a5a66; font-size: 0.85rem; }
+.pm-box { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; margin-top: 1rem; }
+.pm-img { width: 110px; height: 110px; object-fit: cover; border-radius: 50%; border: 3px solid #8b6b3d; background: #d6c8b0; }
+.pm-info { flex: 1; }
+.pm-info h3 { color: #1a2a3a; margin-bottom: 0.2rem; }
+.pm-title { color: #8b6b3d; font-size: 0.85rem; margin-bottom: 0.8rem; }
+.pm-info p { color: #2a3a44; margin-bottom: 0.5rem; }
+.footer { text-align: center; font-size: 0.8rem; color: #b9aa8a; padding: 1.5rem 0 0.5rem; border-top: 1px solid #3a4a58; margin-top: 1rem; }
+max-width: 700px { .container { padding: 1rem; } .section { padding: 1rem; } .pm-box { flex-direction: column; text-align: center; } }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1> Япония</h1>
+        <p>Страна восходящего солнца · традиции и будущее</p>
+    </div>
+	<div class="section">
+        <div class="section-title">📜 О стране</div>
+        <div class="bio-text">
+            <p>Япония — островное государство в Восточной Азии, состоящее из более чем 6800 островов. Главные острова: Хонсю, Хоккайдо, Кюсю и Сикоку. Столица — Токио, крупнейший мегаполис мира. Здесь древние храмы соседствуют с футуристическими небоскрёбами.</p>
+            <p>Япония подарила миру самурайский кодекс бусидо, дзен-буддизм, аниме, оригами и суши. Средняя продолжительность жизни — более 84 лет, а страна славится своей пунктуальностью и уважением к природе.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">✨ Интересные факты</div>
+        <div class="fact-card"><strong>🗻 Гора Фудзи</strong> — действующий вулкан, символ страны, высота 3776 м.</div>
+        <div class="fact-card"><strong>🚆 Поезда-пули</strong> опаздывают в среднем на 6 секунд за год.</div>
+        <div class="fact-card"><strong>🐇 Остров кроликов</strong> Окуносима — сотни ручных кроликов бегают по улицам.</div>
+        <div class="fact-card"><strong>🌸 Сакура</strong> цветёт всего неделю, символизируя быстротечность жизни.</div>
+        <div class="fact-card"><strong>📱 Эмодзи</strong> были созданы в Японии в 1999 году.</div>
+        <div class="fact-card"><strong>🍣 Суши</strong> изначально были способом ферментации рыбы в рисе.</div>
+        <div class="fact-card"><strong>🌋 Огненное кольцо</strong> — в Японии 10% всех активных вулканов мира.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">⭐ Топ-5 удивительных фактов</div>
+        <div class="top-five">
+            <ol>
+                <li><strong>В Японии больше домашних животных, чем детей</strong> — более 20 миллионов собак и кошек.</li>
+                <li><strong>Квадратные арбузы</strong> выращивают для удобного хранения в холодильнике.</li>
+                <li><strong>Цветение сакуры</strong> предсказывают метеорологи с точностью до дня.</li>
+                <li><strong>Самая старая компания в мире</strong> — Kongo Gumi, основана в 578 году.</li>
+                <li><strong>Можно купить подержанные школьные формы</strong> — они очень качественные.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">☸️ Буддизм в Японии</div>
+        <div class="pm-box">
+            <img class="pm-img" src="https://img.freepik.com/free-photo/view-zen-buddha-statue-spirituality_23-2150773875.jpg?semt=ais_hybrid&w=740" alt="Большой Будда" onerror="this.src='https://placehold.co/300x300/d6c8b0/1a2a3a?text=Будда'">
+            <div class="pm-info">
+                <p>Буддизм пришёл в Японию в VI веке из Кореи и Китая. Самая известная статуя — <strong>Большой Будда в Камакуре</strong> (XIII век, высота 13 метров). Дзен-буддизм сильно повлиял на японскую эстетику: чайную церемонию, сады камней, каллиграфию и боевые искусства.</p>
+            </div>
+        </div>
+    </div>
+	<div class="section">
+        <div class="section-title">🏯 Достопримечательности Японии</div>
+        <div class="gallery">
+            <div class="card">
+                <img class="card-img" src="https://img.freepik.com/premium-photo/fuji-mountain-winter-season_40415-151.jpg?semt=ais_hybrid&w=740" alt="Гора Фудзи" onerror="this.src='https://placehold.co/600x400/d6c8b0/1a2a3a?text=Фудзи'">
+                <div class="card-content"><h3>🗻 Гора Фудзи</h3><p>Символ Японии, объект ЮНЕСКО, высота 3776 м.</p></div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://upload.wikimedia.org/wikipedia/commons/4/42/Kiyomizudera_2008-11-21_%283105077729%29.jpg" alt="Киото" onerror="this.src='https://placehold.co/600x400/d6c8b0/1a2a3a?text=Киото'">
+                <div class="card-content"><h3>🏯 Киото (Киёмидзу-дэра)</h3><p>Древний храм с деревянной террасой, объект ЮНЕСКО.</p></div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://media.cnn.com/api/v1/images/stellar/prod/190429174236-imperial-palace-tokyo.jpg?q=w_1600,h_902,x_0,y_0,c_fill/h_447" alt="Императорский дворец" onerror="this.src='https://placehold.co/600x400/d6c8b0/1a2a3a?text=Дворец'">
+                <div class="card-content"><h3>🏛️ Императорский дворец</h3><p>Резиденция императора в центре Токио.</p></div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="https://avatars.mds.yandex.net/i?id=2292d9e6d4e28c4443a64d1b2532204e_l-9244753-images-thumbs&n=13" alt="Осакский замок" onerror="this.src='https://placehold.co/600x400/d6c8b0/1a2a3a?text=Осакский+замок'">
+                <div class="card-content"><h3>🏰 Осакский замок</h3><p>Величественная крепость XVI века, символ объединения Японии.</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">👤 Руководитель Японии</div>
+        <div class="pm-box">
+            <img class="pm-img" src="https://yamal-media.ru/images/insecure/rs:fill-down:1920:1080/aHR0cHM6Ly9zdG9yYWdlLnlhbmRleGNsb3VkLm5ldC95bS1zaXRlcy1zdGF0aWMvM2M1ZWU1MzgtMDY1LndlYnA.webp" alt="Сигэру Исиба" onerror="this.src='https://placehold.co/300x300/d6c8b0/1a2a3a?text=Премьер'">
+            <div class="pm-info">
+                <h3>Сигэру Исиба</h3>
+                <div class="pm-title">Премьер-министр Японии (с 1 октября 2024)</div>
+                <p>Родился 4 февраля 1957 года в Токио. Ранее занимал посты министра обороны (2007–2008) и министра сельского хозяйства. Известен как политик-интеллектуал, автор книг.</p>
+                <p>Япония — конституционная монархия. Император Нарухито выполняет церемониальные функции, а реальная власть принадлежит премьер-министру.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>«Изучая прошлое, мы познаём настоящее» — японская мудрость</p>
+     
+    </div>
+</div>
+</body>
+</html>
